@@ -3,9 +3,10 @@
 		display: none !important;
 	}
 	.kolom2 {
-		display: block;
-		width: 650px;
-		height: auto;
+		display: flex;
+  		height: auto;
+  		justify-content: center;
+  		align-items: center;
 	}
 	#kolom3 {
 		display: none !important;
