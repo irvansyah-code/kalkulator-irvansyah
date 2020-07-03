@@ -4,6 +4,7 @@
 	}
 	.kolom2 {
 		display: block;
+		max-width: 650px;
 	}
 	#kolom3 {
 		display: none;
