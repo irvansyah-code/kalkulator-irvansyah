@@ -1,4 +1,4 @@
-@media all and (max-width: 1000px) {
+
 * {
 padding: 0;
 margin: 5px;
@@ -163,16 +163,4 @@ p {
 #kolom3  {
 	background-color: blue;
 	width: 500px;
-}
-}
-@media all and (max-width: 670px) {
-	body #kolom1 {
-		display: none;
-	}
-	.kolom2 {
-		display: block;
-	}
-	body #kolom3 {
-		display: none;
-	}
 }
