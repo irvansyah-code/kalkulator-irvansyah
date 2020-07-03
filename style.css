@@ -138,10 +138,22 @@ border-radius: 2px;
   	position: relative; 
   	top: 1px;
 }
+.p1 {
+	text-shadow: 0.7px 1px rgba(255, 255, 255, 0.5);
+	position: absolute;
+	margin: 0;
+	padding: 0 10px;
+	margin-top: 10px;
+	color: red;
+	font-size: 15px;
+	font-family: "Chicago" !important;
+	font-size: 15px;
+}
 p {
 	color: white;
 	font-size: 15px;
 	font-family: "arial" !important;
+	margin-top: 12px;
 }
 .kolom1 {
 	background-color: red;
@@ -150,7 +162,7 @@ p {
 .kolom3 {
 	background-color: blue;
 }
-@media (min-width: 350px) and (max-width: 425px) {
+@media (min-width: 300px) and (max-width: 400px) {
 	.kolom1 {
 		display: none;
 	}
