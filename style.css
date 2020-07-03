@@ -158,7 +158,9 @@ p {
 .kolom1 {
 	background-color: red;
 }
-
+.kolom2 {
+	content:'';
+	}
 .kolom3 {
 	background-color: blue;
 }
@@ -166,10 +168,9 @@ p {
 	.kolom1 {
 		display: none;
 	}
-	.kolom2 {
+/* 	.kolom2 {
 		display: block;
-	}
-
+	} */
 	.kolom3 {
 		display: none;
 	}
@@ -177,6 +178,6 @@ p {
 		color: white; 
 		max-width: 170px; 
 		float: right; 
-		font-family: calibri;"
+		font-family: calibri;
 	}
 }
