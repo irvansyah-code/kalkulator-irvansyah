@@ -155,23 +155,23 @@ p {
 	font-family: "arial" !important;
 	margin-top: 12px;
 }
-.kolom1 {
+#kolom1 {
 	background-color: red;
 }
-.kolom2 {
+#kolom2 {
 	content:'';
 	}
-.kolom3 {
+#kolom3 {
 	background-color: blue;
 }
-@media all and (max-width: 670px) {
-	.kolom1 {
+@media all and (max-width: 425px) {
+	#kolom1 > div {
 		display: none;
 	}
-/* 	.kolom2 {
+	#kolom2 > div {
 		display: block;
-	} */
-	.kolom3 {
+	}
+	#kolom3 > div {
 		display: none;
 	}
 	.container-fluid {
