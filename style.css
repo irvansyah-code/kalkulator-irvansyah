@@ -155,23 +155,23 @@ p {
 	font-family: "arial" !important;
 	margin-top: 12px;
 }
-#kolom1 {
+#kolom1 p {
 	background-color: red;
 }
 #kolom2 {
 	content:'';
 	}
-#kolom3 {
+#kolom3 p{
 	background-color: blue;
 }
 @media all and (max-width: 425px) {
-	#kolom1 > div {
+	#kolom1 p {
 		display: none;
 	}
-	#kolom2 > div {
+	#kolom2 {
 		display: block;
 	}
-	#kolom3 > div {
+	#kolom3 p {
 		display: none;
 	}
 	.container-fluid {
