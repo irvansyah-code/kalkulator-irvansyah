@@ -157,11 +157,11 @@ p {
 }
 #kolom1  {
 	background-color: red;
-	width: 400px;
+	width: 500px;
 }
 #kolom3  {
 	background-color: blue;
-	width: 400px;
+	width: 500px;
 }
 @media all and (max-width: 670px) {
 	body #kolom1 {
