@@ -162,7 +162,7 @@ p {
 .kolom3 {
 	background-color: blue;
 }
-@media (min-width: 300px) and (max-width: 400px) {
+@media all and (max-width: 400px) {
 	.kolom1 {
 		display: none;
 	}
@@ -172,5 +172,11 @@ p {
 
 	.kolom3 {
 		display: none;
+	}
+	.container-flui {
+		color: white; 
+		max-width: 170px; 
+		float: right; 
+		font-family: calibri;"
 	}
 }
