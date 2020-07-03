@@ -1,12 +1,13 @@
 @media all and (max-width: 670px) {
 	#kolom1 {
-		display: none;
+		display: none !important;
 	}
 	.kolom2 {
 		display: block;
-		max-width: 650px;
+		width: 650px;
+		height: auto;
 	}
 	#kolom3 {
-		display: none;
+		display: none !important;
 	}
 }
