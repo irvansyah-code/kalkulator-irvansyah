@@ -165,19 +165,13 @@ p {
 	background-color: blue;
 }
 @media all and (max-width: 670px) {
-	#kolom1 {
+	body #kolom1 {
 		display: none;
 	}
 	.kolom2 {
 		display: block;
 	}
-	#kolom3 {
+	body #kolom3 {
 		display: none;
-	}
-	.container-fluid {
-		color: white; 
-		max-width: 170px; 
-		float: right; 
-		font-family: calibri;
 	}
 }
