@@ -1,0 +1,11 @@
+@media all and (max-width: 670px) {
+	#kolom1 {
+		display: none;
+	}
+	.kolom2 {
+		display: block;
+	}
+	#kolom3 {
+		display: none;
+	}
+}
