@@ -99,6 +99,26 @@ border-radius: 2px;
   	position: relative; 
   	top: 1px;
 }
+.baris-3c {
+	padding: 10px 14px;
+	margin-right: 5px;
+	margin-left: 9px;
+	color: white;
+	background-color: teal;
+	border-style: none;
+	border-radius: 5px 5px 5px 5px;
+	border-top: 1.5px solid #999999;
+  	box-shadow: 0 4px #999999;
+}
+.baris-3c:hover {
+	background-color: #006d6d;
+  	transition:all .25s;
+}
+.baris-3c:active {
+	box-shadow: none;
+  	position: relative; 
+  	top: 1px;
+}
 .baris-4, 
 .baris-5, 
 .baris-6,
