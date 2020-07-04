@@ -1,0 +1,22 @@
+@media all and (max-width: 670px){
+.baris-4a {
+	padding-left: 5px;
+	padding: 10px 14px;
+	color: white;
+	background-color: #990000;
+	border-style: none;
+	border-radius: 5px 5px 5px 5px;
+	border-top: 1.5px solid #999999;
+  	box-shadow: 0 4px #999999;
+  	margin: 0 10px;
+}
+.baris-4a:hover {
+	background-color: #660000;
+	transition:all .25s;
+}
+.baris-4a:active {
+	box-shadow: none;
+  	position: relative; 
+  	top: 1px;
+}
+}
